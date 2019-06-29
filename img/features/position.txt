@@ -1,0 +1,36 @@
+
+x
+.bg-icon1 {
+    width: 60px; height: 60px;
+    background: url('css_sprites.png') -20px -20px;
+}
+
+x
+.bg-icon2 {
+    width: 73px; height: 60px;
+    background: url('css_sprites.png') -20px -120px;
+}
+
+x
+.bg-icon3 {
+    width: 41px; height: 60px;
+    background: url('css_sprites.png') -20px -220px;
+}
+
+x
+.bg-icon4 {
+    width: 56px; height: 60px;
+    background: url('css_sprites.png') -20px -320px;
+}
+
+x
+.bg-icon5 {
+    width: 72px; height: 60px;
+    background: url('css_sprites.png') -20px -420px;
+}
+
+x
+.bg-icon6 {
+    width: 79px; height: 60px;
+    background: url('css_sprites.png') -20px -520px;
+}
