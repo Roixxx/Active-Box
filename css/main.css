@@ -4,6 +4,34 @@ body {
 	color: #6c7279;
 }
 
-* {
-	box-sizing: border-box;
+.container {
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+/* HEADER */
+
+header {
+	height: 750px;
+	background: url("../img/header/header-bg.jpg");
+}
+
+.logo {
+	
+}
+
+ul.menu {
+	display: flex;
+}
+
+.menu li {
+	list-style: none;
+}
+
+.menu a {
+	color: #cbccd2;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 700;
 }
