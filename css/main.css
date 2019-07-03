@@ -89,5 +89,10 @@ ul.menu {
  	text-transform: uppercase;
  	text-decoration: none;
  	background-color: #e84545;
+ 	border-radius: 2px;
+ 	transition: background 0.2s;
+}
 
+.intro-button:hover {
+	background-color: #b53232;
 }
