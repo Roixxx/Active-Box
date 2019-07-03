@@ -19,7 +19,7 @@ header {
 	background-color: #31354f;
 }
 
-.header-top {
+.header_top {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -53,11 +53,11 @@ ul.menu {
 
 /* HEADER / header-intro */
 
-.header-intro {
+.header_intro {
 	text-align: center;
 }
 
-.header-intro h1 {
+.header_intro h1 {
 	width: 870px;
 	margin: 0 auto;
 	margin-top: 145px;
@@ -68,7 +68,7 @@ ul.menu {
 	text-transform: uppercase;
 }
 
-.header-intro p {
+.header_intro p {
 	font-size: 22px;
 	line-height: 1.5;
 	width: 920px;
@@ -76,7 +76,7 @@ ul.menu {
 	margin-top: 20px;
 }
 
-.intro-button {
+.intro_button {
 	display: block;
 	padding: 15px 0;
 	margin: 0 auto;
@@ -93,6 +93,80 @@ ul.menu {
  	transition: background 0.2s;
 }
 
-.intro-button:hover {
+.intro_button:hover {
 	background-color: #b53232;
+}
+
+/* FEATURES */
+
+section.features {
+	padding-top: 120px;
+	padding-bottom: 45px;
+}
+
+.features_list {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 1085px;
+	margin: 0 auto;
+}
+
+.features_item {
+	width: 300px;
+	text-align: center;
+}
+
+.features_icon {
+	background: url(../img/features/features_sprites.png) no-repeat;
+	display: inline-block;
+	width: 80px;
+	height: 60px;
+}
+
+.features_title {
+	margin: 0;
+	margin-top: 29px;
+	margin-bottom: 18px;
+	color: #2d3033;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.features_text {
+	color: #6c7279;
+	line-height: 1.5;
+	margin-bottom: 76px;
+}
+
+/* FEATURES  / icons*/
+
+.icon_customised {
+	background-position: -20px -20px;
+	width: 60px;
+}
+
+.icon_redy {
+	background-position: -20px -120px;
+	width: 73px;
+}
+
+.icon_design {
+	background-position: -20px -220px;
+	width: 41px;
+}
+
+.icon_code {
+	background-position: -20px -320px;
+	width: 56px;
+}
+
+.icon_ship {
+	background-position: -20px -420px;
+	width: 72px
+}
+
+.icon_download {
+	background-position: -20px -520px;
+	width: 79px;
 }
