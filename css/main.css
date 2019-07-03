@@ -58,19 +58,36 @@ ul.menu {
 }
 
 .header-intro h1 {
-	width: 860px;
+	width: 870px;
 	margin: 0 auto;
 	margin-top: 145px;
+	font-family: "Open Sans", sans-serif;
 	font-size: 65px;
 	font-weight: 700;
-	line-height: 71px;
+	line-height: 1.1;
 	text-transform: uppercase;
 }
 
 .header-intro p {
 	font-size: 22px;
-	line-height: 33px;
+	line-height: 1.5;
 	width: 920px;
 	margin: 0 auto;
 	margin-top: 20px;
+}
+
+.intro-button {
+	display: block;
+	padding: 15px 0;
+	margin: 0 auto;
+	margin-top: 75px;
+	width: 200px;
+ 	color: #fdf3f3;
+ 	font-size: 13px;
+ 	font-family: "Raleway SemiBold", sans-serif;
+ 	font-weight: 400;
+ 	text-transform: uppercase;
+ 	text-decoration: none;
+ 	background-color: #e84545;
+
 }
