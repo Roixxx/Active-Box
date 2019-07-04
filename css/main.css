@@ -232,6 +232,11 @@ section.team {
 	padding: 100px 0;
 }
 
+.team_list {
+	display: flex;
+	justify-content: space-between;
+}
+
 .team_item {
 	width: 270px;
 }
@@ -253,6 +258,34 @@ section.team {
 
 .team_text {
 	color: #6c7279;
-	margin: 25px 0 0 0;
+	margin: 25px 0 25px 0;
 	line-height: 1.5;
+}
+
+/* SECTION TEAM / social_links */
+
+.social-btn {
+	display: inline-block;
+	width: 38px;
+	height: 38px;
+	background: url(../img/team/css_sprites.png) no-repeat;
+	background-color: #fff;
+	border: 1px solid #e8ecee;
+	transition: background-color 0.3s;
+}
+
+.social-btn:hover {
+	background-color: #e8ecee;
+}
+
+.fb {
+	background-position: 5px 0px;
+}
+
+.tw {
+	background-position: -64px 2px;
+}
+
+.in {
+	background-position: -27px 0px;
 }
