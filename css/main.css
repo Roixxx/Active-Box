@@ -361,3 +361,63 @@ section.download {
 	margin: 0 auto;
 	width: 280px;
 }
+
+/*FOOTER*/
+
+footer {
+	background-color: #3a3e64;
+	padding-top: 67px;
+	padding-bottom: 83px;
+}
+
+.footer_inner {
+	display: flex;
+}
+
+.footer_block {
+	width: 33.33333%;
+	text-align: center;
+	padding: 0 15px;
+}
+
+.footer_title {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.footer_text {
+	line-height: 1.6;
+	color: #adaebb;
+	margin-top: 16px;
+}
+
+address {
+	font-style: normal;
+}
+
+/*FOOTER / links*/
+
+.footer_links {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.footer_links li {
+	list-style: none;
+	margin-right: 7px;
+}
+
+.footer_links li:last-child {
+	margin-right: 0px;
+}
+
+.footer_links a {
+	background-color: #3a3e64;
+	border: 2px solid #fff;
+}
+
+.footer_links a:hover {
+	background-color: #2f324e;
+}
