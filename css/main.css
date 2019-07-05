@@ -289,3 +289,46 @@ section.team {
 .in {
 	background-position: -27px 0px;
 }
+
+/*SECTION CLIENTS*/
+
+section.clients {
+	background-color: #53354a;
+	overflow: hidden;
+}
+
+.clients_item {
+	display: flex;
+}
+
+.clients_photo {
+	width: 50%;
+	height: 500px;
+	position: relative;
+}
+
+.clients_photo img {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.clients_content {
+	width: 50%;
+	margin-left: 83px;
+	color: #fff;
+}
+
+.clients_text {
+	font-family: "Cardo", sans-serif;
+	font-style: italic;
+	font-size: 36px;
+	line-height: 1.2;
+	margin: 110px 70px 29px 0px;
+}
+
+.clients_author {
+	font-weight: 700;
+	font-size: 13px;
+	text-transform: uppercase;
+}
