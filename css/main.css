@@ -407,6 +407,7 @@ address {
 .footer_links li {
 	list-style: none;
 	margin-right: 7px;
+	
 }
 
 .footer_links li:last-child {
@@ -416,6 +417,7 @@ address {
 .footer_links a {
 	background-color: #3a3e64;
 	border: 2px solid #fff;
+	width: 36px;
 }
 
 .footer_links a:hover {
