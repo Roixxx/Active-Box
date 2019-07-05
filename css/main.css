@@ -76,7 +76,7 @@ ul.menu {
 	margin-top: 20px;
 }
 
-.intro_button {
+.red_button {
 	display: block;
 	padding: 15px 0;
 	margin: 0 auto;
@@ -331,4 +331,33 @@ section.clients {
 	font-weight: 700;
 	font-size: 13px;
 	text-transform: uppercase;
+}
+
+/*SECTION DOWNLOAD*/
+
+section.download {
+	color: #2d3033;
+	text-align: center;
+	padding-top: 95px;
+	padding-bottom: 100px;
+}
+
+.download_title {
+	margin: 0;
+	font-weight: 300;
+	font-family: "Raleway", sans-serif;
+	font-size: 28px;
+}
+
+.download_text {
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 700;
+	margin-top: 15px;
+	margin-bottom: 38px;
+}
+
+.download .red_button {
+	margin: 0 auto;
+	width: 280px;
 }
