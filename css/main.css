@@ -366,12 +366,12 @@ section.download {
 
 footer {
 	background-color: #3a3e64;
-	padding-top: 67px;
-	padding-bottom: 83px;
 }
 
 .footer_inner {
 	display: flex;
+	padding-top: 67px;
+	padding-bottom: 87px;
 }
 
 .footer_block {
@@ -422,4 +422,28 @@ address {
 
 .footer_links a:hover {
 	background-color: #2f324e;
+}
+
+/*FOOTER / copyright*/
+
+.copyright {
+	background-color: #313454;
+	color: #808080;
+	text-align: center;
+	padding: 25px 0;
+}
+
+.copyright p {
+	width: 390px;
+	margin: 0 auto;
+	line-height: 1.6;
+}
+
+.copyright a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.white_text {
+	color: #ffffff;
 }
