@@ -458,13 +458,12 @@ address {
 
 @media (max-width: 990px) {
 	
-	ul.menu {
+	nav {
 		display: none;
 	}
 
 	.header_intro h1 {
 		font-size: 40px;
 	}
-	
 	
 }
