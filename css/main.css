@@ -17,6 +17,7 @@ header {
 	height: 750px;
 	background: url("../img/header/header-bg.jpg");
 	background-color: #31354f;
+	background-size: cover;
 }
 
 .header_top {
@@ -93,7 +94,7 @@ ul.menu {
  	transition: background 0.2s;
 }
 
-.intro_button:hover {
+.red_button:hover {
 	background-color: #b53232;
 }
 
