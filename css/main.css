@@ -118,6 +118,7 @@ section.features {
 .features_item {
 	width: 300px;
 	text-align: center;
+
 }
 
 .features_icon {
@@ -459,7 +460,7 @@ address {
 /*MEDIA QUERIES*/
 
 @media (max-width: 990px) {
-	
+	/*HEADER*/
 	nav {
 		display: none;
 	}
@@ -470,12 +471,23 @@ address {
 }
 
 @media (max-width: 566px) {
-
+	/*HEADER*/
 	.header_intro h1 {
 		font-size: 30px;
 	}
 	
 	.header_intro p {
 		font-size: 17px;
+	}
+}
+
+@media (max-width: 566px) {
+	/*HEADER*/
+	.header_intro h1 {
+		font-size: 22px;
+	}
+
+	.header_intro p {
+		font-size: 14px;
 	}
 }
