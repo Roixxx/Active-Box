@@ -239,12 +239,19 @@ section.team {
 
 .team_list {
 	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    box-sizing: border-box;
 }
 
 .team_item {
-	width: 270px;
+	width: 25%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.team_item img {
+	width: 100%;
 }
 
 .team_name {
@@ -505,6 +512,12 @@ address {
 	.works_item {
 		width: 100%;
 	}
+
+	/*TEAM*/
+
+	.team_item {
+		width: 50%;
+	}
 }
 
 @media (max-width: 566px) {
@@ -524,5 +537,17 @@ address {
 	.features_item {
 		width: 100%;
 	}
+
+	/*TEAM*/
+	
+	.team_list {
+		justify-content: center;
+	}
+
+	.team_item {
+		width: 100%;
+		max-width: 400px;
+	}
+}
 }
 
