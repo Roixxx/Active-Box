@@ -7,17 +7,19 @@ body {
 
 .container {
 	width: 100%;
-	max-width: 1170px;
+	max-width: 1200px;
 	margin: 0 auto;
+	padding: 0 15px;
+	box-sizing: border-box;
 }
 
 /* HEADER / header-top */
 
 header {
-	height: 750px;
 	background: url("../img/header/header-bg.jpg");
 	background-color: #31354f;
 	background-size: cover;
+	padding-bottom: 156px;
 }
 
 .header_top {
@@ -464,6 +466,16 @@ address {
 
 	.header_intro h1 {
 		font-size: 40px;
+	}	
+}
+
+@media (max-width: 566px) {
+
+	.header_intro h1 {
+		font-size: 30px;
 	}
 	
+	.header_intro p {
+		font-size: 17px;
+	}
 }
