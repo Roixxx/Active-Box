@@ -108,16 +108,15 @@ section.features {
 
 .features_list {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	flex-wrap: wrap;
-	width: 100%;
-	max-width: 1080px;
-	margin: 0 auto;
 }
 
 .features_item {
-	width: 300px;
+	width: 33%;
 	text-align: center;
+	padding: 0 40px;
+	box-sizing: border-box;
 
 }
 
@@ -460,7 +459,9 @@ address {
 /*MEDIA QUERIES*/
 
 @media (max-width: 990px) {
+
 	/*HEADER*/
+
 	nav {
 		display: none;
 	}
@@ -468,10 +469,19 @@ address {
 	.header_intro h1 {
 		font-size: 40px;
 	}	
+
+	/*FEATURES*/
+
+	.features_item {
+		width: 50%;
+		padding: 0 30px;
+	}
 }
 
 @media (max-width: 566px) {
+
 	/*HEADER*/
+
 	.header_intro h1 {
 		font-size: 30px;
 	}
@@ -479,10 +489,18 @@ address {
 	.header_intro p {
 		font-size: 17px;
 	}
+
+	/*FEATURES*/
+
+	.features_item {
+		width: 100%;
+	}
 }
 
 @media (max-width: 566px) {
+
 	/*HEADER*/
+
 	.header_intro h1 {
 		font-size: 22px;
 	}
