@@ -7,17 +7,19 @@ body {
 
 .container {
 	width: 100%;
-	max-width: 1170px;
+	max-width: 1200px;
 	margin: 0 auto;
+	padding: 0 15px;
+	box-sizing: border-box;
 }
 
 /* HEADER / header-top */
 
 header {
-	height: 750px;
 	background: url("../img/header/header-bg.jpg");
 	background-color: #31354f;
 	background-size: cover;
+	padding-bottom: 156px;
 }
 
 .header_top {
@@ -56,11 +58,12 @@ ul.menu {
 
 .header_intro {
 	text-align: center;
+	max-width: 950px;
+	width: 100%;
+	margin: 0 auto;
 }
 
 .header_intro h1 {
-	width: 870px;
-	margin: 0 auto;
 	margin-top: 145px;
 	font-family: "Open Sans", sans-serif;
 	font-size: 65px;
@@ -72,8 +75,6 @@ ul.menu {
 .header_intro p {
 	font-size: 22px;
 	line-height: 1.5;
-	width: 920px;
-	margin: 0 auto;
 	margin-top: 20px;
 }
 
@@ -107,15 +108,16 @@ section.features {
 
 .features_list {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	flex-wrap: wrap;
-	width: 1080px;
-	margin: 0 auto;
 }
 
 .features_item {
-	width: 300px;
+	width: 33%;
 	text-align: center;
+	padding: 0 40px;
+	box-sizing: border-box;
+
 }
 
 .features_icon {
@@ -177,9 +179,11 @@ section.features {
 section.works {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .works_item {
+	max-width: 550px;
 	width: 25%;
 	height: 350px;
 	position: relative;
@@ -230,16 +234,26 @@ section.works {
 /*SECTION TEAM*/
 
 section.team {
-	padding: 100px 0;
+	padding-top: 100px;
+	padding-bottom: 50px;
 }
 
 .team_list {
 	display: flex;
-	justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    box-sizing: border-box;
 }
 
 .team_item {
-	width: 270px;
+	width: 25%;
+    padding: 0 15px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+}
+
+.team_item img {
+	width: 100%;
 }
 
 .team_name {
@@ -435,7 +449,8 @@ address {
 }
 
 .copyright p {
-	width: 390px;
+	width: 100%;
+	max-width: 390px;
 	margin: 0 auto;
 	line-height: 1.6;
 }
@@ -447,7 +462,7 @@ address {
 
 .white_text {
 	color: #ffffff;
-
+}
 
 /***************************************/
 /***************************************/
@@ -474,13 +489,9 @@ address {
 }
 
 @media (max-width: 990px) {
-<<<<<<< HEAD
 
 	/*HEADER*/
 
-=======
-	
->>>>>>> parent of 0b619b4... Update main.css
 	nav {
 		display: none;
 	}
@@ -516,19 +527,12 @@ address {
 	}
 }
 
-<<<<<<< HEAD
 @media (max-width: 850px) {
 
 	/*WORKS*/
 
 	.works_item {
 		width: 100%;
-=======
-@media (max-width: 566px) {
-
-	.header_intro h1 {
-		font-size: 30px;
->>>>>>> parent of 0b619b4... Update main.css
 	}
 
 	/*TEAM*/
@@ -537,15 +541,19 @@ address {
 		width: 50%;
 
 	}
-<<<<<<< HEAD
 }
 
 @media (max-width: 566px) {
 
 	/*HEADER*/
+	
+	header {
+		padding-bottom: 50px;
+	}
 
 	.header_intro h1 {
 		font-size: 22px;
+		margin-top: 45px;
 	}
 	
 	.header_intro p {
@@ -553,13 +561,25 @@ address {
 	}
 
 	/*FEATURES*/
+	
+	section.features {
+		padding: 40px 0 0 0;
+	}
 
 	.features_item {
 		width: 100%;
 	}
 
+	.features_text {
+		margin-bottom: 40px;
+	}
+
 	/*TEAM*/
 	
+	section.team {
+		padding: 50px 0;
+	}
+
 	.team_list {
 		justify-content: center;
 	}
@@ -598,6 +618,5 @@ address {
 		padding: 0;
 	}
 }
-=======
-}
->>>>>>> parent of 0b619b4... Update main.css
+
+
