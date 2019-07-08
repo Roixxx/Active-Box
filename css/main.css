@@ -177,9 +177,11 @@ section.features {
 section.works {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .works_item {
+	max-width: 550px;
 	width: 25%;
 	height: 350px;
 	position: relative;
@@ -230,16 +232,26 @@ section.works {
 /*SECTION TEAM*/
 
 section.team {
-	padding: 100px 0;
+	padding-top: 100px;
+	padding-bottom: 50px;
 }
 
 .team_list {
 	display: flex;
-	justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    box-sizing: border-box;
 }
 
 .team_item {
-	width: 270px;
+	width: 25%;
+    padding: 0 15px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+}
+
+.team_item img {
+	width: 100%;
 }
 
 .team_name {
@@ -408,7 +420,7 @@ address {
 .footer_links li {
 	list-style: none;
 	margin-right: 7px;
-	
+
 }
 
 .footer_links li:last-child {
@@ -435,7 +447,8 @@ address {
 }
 
 .copyright p {
-	width: 390px;
+	width: 100%;
+	max-width: 390px;
 	margin: 0 auto;
 	line-height: 1.6;
 }
@@ -447,4 +460,159 @@ address {
 
 .white_text {
 	color: #ffffff;
+}
+
+/***************************************/
+/***************************************/
+/***************************************/
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 1600px) {
+
+	/*WORKS*/
+
+	.works_item {
+		width: 33.33333%;
+	}
+}
+
+@media (max-width: 1280px) {
+
+	/*WORKS*/
+
+	.works_item {
+		width: 50%;
+	}
+}
+
+@media (max-width: 990px) {
+
+	/*HEADER*/
+
+	nav {
+		display: none;
+	}
+
+	.header_intro h1 {
+		font-size: 40px;
+	}
+
+	/*FEATURES*/
+
+	.features_item {
+		width: 50%;
+		padding: 0 20px;
+	}
+
+	/*CLIENTS*/
+
+	.clients_item {
+		flex-direction: column;
+		margin-top: 15px;
+	}
+
+	.clients_photo,
+	.clients_content {
+		width: 100%;
+		overflow: hidden;
+		margin: 0;
+	}
+
+	.clients_text,
+	.clients_author {
+		margin: 30px 0 30px 0;
+	}
+}
+
+@media (max-width: 850px) {
+
+	/*WORKS*/
+
+	.works_item {
+		width: 100%;
+	}
+
+	/*TEAM*/
+
+	.team_item {
+		width: 50%;
+
+	}
+}
+
+@media (max-width: 566px) {
+
+	/*HEADER*/
+
+	header {
+		padding-bottom: 50px;
+	}
+
+	.header_intro h1 {
+		font-size: 22px;
+		margin-top: 45px;
+	}
+
+	.header_intro p {
+		font-size: 14px;
+	}
+
+	/*FEATURES*/
+
+	section.features {
+		padding: 40px 0 0 0;
+	}
+
+	.features_item {
+		width: 100%;
+	}
+
+	.features_text {
+		margin-bottom: 40px;
+	}
+
+	/*TEAM*/
+
+	section.team {
+		padding: 50px 0;
+	}
+
+	.team_list {
+		justify-content: center;
+	}
+
+	.team_item {
+		width: 100%;
+		max-width: 400px;
+	}
+
+	/*CLIENTS*/
+
+	.clients_text {
+		font-size: 26px;
+	}
+
+	.clients_photo {
+		height: 300px;
+		text-align: center;
+	}
+
+	.clients_photo img {
+		max-height: 300px;
+	}
+
+	/*FOOTER*/
+
+	.footer_inner {
+		flex-direction: column;
+		padding-top: 40px;
+		padding-bottom: 0px;
+	}
+
+	.footer_block {
+		width: 100%;
+		margin-bottom: 30px;
+		padding: 0;
+	}
 }
