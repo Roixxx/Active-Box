@@ -474,9 +474,13 @@ address {
 }
 
 @media (max-width: 990px) {
+<<<<<<< HEAD
 
 	/*HEADER*/
 
+=======
+	
+>>>>>>> parent of 0b619b4... Update main.css
 	nav {
 		display: none;
 	}
@@ -512,12 +516,19 @@ address {
 	}
 }
 
+<<<<<<< HEAD
 @media (max-width: 850px) {
 
 	/*WORKS*/
 
 	.works_item {
 		width: 100%;
+=======
+@media (max-width: 566px) {
+
+	.header_intro h1 {
+		font-size: 30px;
+>>>>>>> parent of 0b619b4... Update main.css
 	}
 
 	/*TEAM*/
@@ -526,6 +537,7 @@ address {
 		width: 50%;
 
 	}
+<<<<<<< HEAD
 }
 
 @media (max-width: 566px) {
@@ -586,3 +598,6 @@ address {
 		padding: 0;
 	}
 }
+=======
+}
+>>>>>>> parent of 0b619b4... Update main.css
