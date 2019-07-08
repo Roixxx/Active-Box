@@ -546,9 +546,14 @@ address {
 @media (max-width: 566px) {
 
 	/*HEADER*/
+	
+	header {
+		padding-bottom: 50px;
+	}
 
 	.header_intro h1 {
 		font-size: 22px;
+		margin-top: 45px;
 	}
 	
 	.header_intro p {
@@ -556,13 +561,25 @@ address {
 	}
 
 	/*FEATURES*/
+	
+	section.features {
+		padding: 40px 0 0 0;
+	}
 
 	.features_item {
 		width: 100%;
 	}
 
+	.features_text {
+		margin-bottom: 40px;
+	}
+
 	/*TEAM*/
 	
+	section.team {
+		padding: 50px 0;
+	}
+
 	.team_list {
 		justify-content: center;
 	}
