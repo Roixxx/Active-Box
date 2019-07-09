@@ -28,7 +28,6 @@ header {
 	align-items: center;
 	height: 100px;
 	border-bottom: 1px solid #4f5168;
-	background-color: #31354f;
 	box-sizing: border-box;
 }
 
@@ -37,6 +36,7 @@ header {
 	height: auto;
 	width: 100%;
 	padding: 10px 19.2631%;
+	background-color: #31354f;
 	top: 0;
 	left: 0;
 	z-index: 3;
@@ -574,6 +574,10 @@ address {
 	header {
 		padding-bottom: 50px;
 	}
+
+	.header_top.fixed {
+		display: none;
+}
 
 	.header_intro h1 {
 		font-size: 22px;

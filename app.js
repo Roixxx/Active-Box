@@ -5,7 +5,8 @@ $(function() {
 	let	header_height = header.innerHeight();
 	let scrollPos = $(window).scrollTop();
 
-	$(window).on("scroll", function() {
+	$(window).on("scroll load resize", function() {
+		let	header_height = header.innerHeight();
 
 		scrollPos = $(this).scrollTop();
 
