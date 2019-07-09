@@ -28,6 +28,18 @@ header {
 	align-items: center;
 	height: 100px;
 	border-bottom: 1px solid #4f5168;
+	background-color: #31354f;
+	box-sizing: border-box;
+}
+
+.header_top.fixed {
+	position: fixed;
+	height: auto;
+	width: 100%;
+	padding: 10px 19.2631%;
+	top: 0;
+	left: 0;
+	z-index: 3;
 }
 
 ul.menu {

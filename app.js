@@ -16,9 +16,4 @@ $(function() {
 		}
 	})
 
-
-
-
-
-	header_top.addClass("fixed");
 });
