@@ -31,17 +31,6 @@ header {
 	box-sizing: border-box;
 }
 
-.header_top.fixed {
-	position: fixed;
-	height: auto;
-	width: 100%;
-	padding: 10px 19.2631%;
-	background-color: #31354f;
-	top: 0;
-	left: 0;
-	z-index: 3;
-}
-
 ul.menu {
 	display: flex;
 	justify-content: space-between;
