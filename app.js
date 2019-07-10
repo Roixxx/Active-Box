@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $(function() {
 
 	let	header = $("#header");
@@ -16,5 +17,21 @@ $(function() {
 			header_top.removeClass("fixed");
 		}
 	})
+=======
+$(function(){
+
+
+	/* Scroll */
+
+  	$('a[href^="#"]').on('click', function(event) {
+
+    	event.preventDefault();
+    
+    	var sc = $(this).attr("href"),
+        dn = $(sc).offset().top;
+
+    	$('html, body').animate({scrollTop: dn}, 1000);
+    });
+>>>>>>> parent of d7d69f7... Update app.js
 
 });
