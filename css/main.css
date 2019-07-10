@@ -473,12 +473,6 @@ address {
 
 @media (max-width: 1600px) {
 
-	/*HEADER*/
-
-	.header_top.fixed {
-		padding: 10px 15%;
-}
-
 	/*WORKS*/
 
 	.works_item {
@@ -487,12 +481,6 @@ address {
 }
 
 @media (max-width: 1280px) {
-	
-	/*HEADER*/
-
-	.header_top.fixed {
-		padding: 10px 8%;
-}
 
 	/*WORKS*/
 
@@ -563,9 +551,6 @@ address {
 	header {
 		padding-bottom: 50px;
 	}
-
-	.header_top.fixed {
-		display: none;
 }
 
 	.header_intro h1 {
