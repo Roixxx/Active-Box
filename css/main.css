@@ -346,6 +346,11 @@ section.clients {
 	color: #fff;
 }
 
+.clients_review {
+	font-size: 0px;
+	width: 0;
+}
+
 .clients_text {
 	font-family: "Cardo", sans-serif;
 	font-style: italic;
