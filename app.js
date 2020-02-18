@@ -1,11 +1,13 @@
  /* Scroll */
 
-$('a[href^="#"]').on('click', function(event) {
+$(function() {
+    $('a[href^="#"]').on('click', function(event) {
 
-    event.preventDefault();
-    
-    var sc = $(this).attr("href"),
-    dn = $(sc).offset().top;
+        event.preventDefault();
+        
+        let sc = $(this).attr("href"),
+        dn = $(sc).offset().top;
 
-    $('html, body').animate({scrollTop: dn}, 1000);
+        $('html, body').animate({scrollTop: dn}, 1000);
+    });
 });
